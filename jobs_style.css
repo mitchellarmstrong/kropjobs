@@ -1,0 +1,164 @@
+
+
+body, h1, h3,  {
+	background: #fbfbfb;
+
+	margin: 0;
+	padding:0;
+	font-family: 'Arial';
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#header {
+	position: relative;
+	top:-9;
+	padding-top: 10px;
+	padding-left: 25px;
+	height: 58px;
+	background-image: url(images/header.png);
+
+}
+
+#footer{
+	padding-top: 30px;
+	padding-left: 25px;
+	height: 39px;
+	width: 935px;
+	position: absolute;
+	top: 1370px;
+	background-image: url(images/footer.png);
+
+
+}
+
+#title-bar{
+	height: 41px;
+	background-image: url(images/sub_title_bar.png);
+	padding-bottom: 10px;
+}
+
+#job-title{
+	background-color: none;
+	padding-left: 20px;
+	top: 377px;
+	position: absolute;
+	font-family:'Arial';
+
+}
+
+#loc-title{
+	float: right;
+	background-color: none;
+	padding-left: 20px;
+	top: -10px;
+	right: 530px;
+	position: relative;
+	font-family:'Arial';
+
+}
+
+#comp-title{
+	float: right;
+	background-color: none;
+	padding-left: 20px;
+	top: -10px;
+	right: 90px;
+	position: relative;
+	font-family:'Arial';
+
+}
+
+#logo {
+	padding-top: 2px;
+}
+
+#headline-image {
+
+	padding-top: px;
+	padding-bottom: 10px;
+}
+
+
+/* JOBS */
+#job-container{
+	position: relative;
+	float:left;
+	top: 10px;
+	width: 300px;
+	height: 890px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	padding-right: 5px;
+	background-image: url(images/job_box.png);
+
+}
+
+#jobs{
+	width: 285px;
+	padding-top: 0;
+	position:relative;
+	left: -30px;
+	top: -10px
+
+}
+
+/* Location */
+
+#loc-container{
+	position: relative;
+	float:left;
+	top: 10px;
+	left: 7px;
+	width: 305px;
+	height: 890px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	background-image: url(images/job_box.png);
+
+}
+
+#locs{
+	width: 270px;
+	padding-top: 0;
+	position:relative;
+	left: -20px;
+	top: -10px
+
+}
+
+
+#company-container{
+	position: relative;
+	float:left;
+	top: -5px;
+	left: 15px;
+	width: 335px;
+	height: 889px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	background-image: url(images/compbox.png);
+
+}
+
+#company{
+	width: 320px;
+	padding-top: 0;
+	position:relative;
+	left: -32px;
+	top: -10px
+
+}
+
+li{
+	list-style: none;
+	padding-bottom: 3px;
+	padding-top: 4px;
+	border-bottom: 1px solid #cdcdcd;
+	font-family: 'Arial';
+	}
+
